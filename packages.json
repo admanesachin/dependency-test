@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$95d63bcf23eb98c7099cef384ad500716547af74.json": {
+            "sha1": "95d63bcf23eb98c7099cef384ad500716547af74"
+        }
+    },
+    "metadata-url": "/admanesachin/dependency-test/p2/%package%.json",
+    "available-packages": [
+        "admanesachin/test-package-a"
+    ]
+}
