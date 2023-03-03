@@ -8,5 +8,9 @@
     "metadata-url": "/admanesachin/dependency-test/p2/%package%.json",
     "available-packages": [
         "admanesachin/test-package-a"
-    ]
+    ],
+
+    "require": {
+        "admanesachin\/test-package-a": "0.1.1"
+    }
 }
