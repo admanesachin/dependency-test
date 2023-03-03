@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$2020f350880f3bab66a9644241f312a2bacaf0a2.json": {
+            "sha1": "2020f350880f3bab66a9644241f312a2bacaf0a2"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "admanesachin/test-package-a"
+    ]
+}
