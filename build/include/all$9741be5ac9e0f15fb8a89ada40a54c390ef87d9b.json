@@ -1,7 +1,7 @@
 {
     "packages": {
-        "admanesachin/test-package-a": [
-            {
+        "admanesachin/test-package-a": {
+            "0.1.1": {
                 "name": "admanesachin/test-package-a",
                 "version": "0.1.1",
                 "version_normalized": "0.1.1.0",
@@ -34,7 +34,7 @@
                     "issues": "https://github.com/admanesachin/dependency-test/issues"
                 }
             },
-            {
+            "0.1.2": {
                 "name": "admanesachin/test-package-a",
                 "version": "0.1.2",
                 "version_normalized": "0.1.2.0",
@@ -66,7 +66,41 @@
                     "source": "https://github.com/admanesachin/dependency-test/tree/0.1.2",
                     "issues": "https://github.com/admanesachin/dependency-test/issues"
                 }
+            },
+            "dev-main": {
+                "name": "admanesachin/test-package-a",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/admanesachin/dependency-test.git",
+                    "reference": "52fe77f784ab7dec6e58458576e9de3ad54d8649"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/admanesachin/dependency-test/zipball/52fe77f784ab7dec6e58458576e9de3ad54d8649",
+                    "reference": "52fe77f784ab7dec6e58458576e9de3ad54d8649",
+                    "shasum": ""
+                },
+                "time": "2023-03-09T21:06:31+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "admanesachin\\TestPackageA\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Sachin Admane",
+                        "email": "sadmane@adobe.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/admanesachin/dependency-test/tree/0.1.2",
+                    "issues": "https://github.com/admanesachin/dependency-test/issues"
+                }
             }
-        ]
+        }
     }
 }
